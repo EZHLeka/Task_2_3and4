@@ -1,0 +1,53 @@
+INSERT INTO public.persons(
+	surname, name, patronymic, birth_date)
+select 'Трифонова',	'Татьяна',	'Викторовна',	'1988-07-25' union all	
+select 'Чагдуров', 'Зоригто', 'Алдарович', to_date('2005-02-19' , 'YYYY-MM-DD')    union all 
+select 'Чагдурова', 'Надежда', 'Викторовна', to_date('1979-07-07' , 'YYYY-MM-DD')    union all 
+select 'Норбоев', 'Джамба-Цырен', 'Баторович', to_date('2006-01-11' , 'YYYY-MM-DD')    union all 
+select 'Атутов', 'Артем', 'Радионович', to_date('1978-05-27' , 'YYYY-MM-DD')    union all 
+select 'Охинова', 'Анна', 'Ивановна', to_date('1984-07-21' , 'YYYY-MM-DD')    union all 
+select 'Токмаков', 'Андрей', 'Валентинович', to_date('1997-09-07' , 'YYYY-MM-DD')    union all 
+select 'Дармаева', 'Галина', 'Баировна', to_date('1989-08-15' , 'YYYY-MM-DD')    union all 
+select 'Жалсанова', 'Оюна', 'Бальжировна', to_date('1978-11-12' , 'YYYY-MM-DD')    union all 
+select 'Дармаев', 'Саян', 'Олегович', to_date('1999-03-19' , 'YYYY-MM-DD')    union all 
+select 'Мальцева', 'Анастасия', 'Алексеевна', to_date('2000-07-26' , 'YYYY-MM-DD')    union all 
+select 'Тарнуева', 'Ирина', 'Викторовна', to_date('1990-06-20' , 'YYYY-MM-DD')    union all 
+select 'Намсараева', 'Эржена', 'Ильинична', to_date('1970-01-29' , 'YYYY-MM-DD')    union all 
+select 'Бальжитова', 'Тамара', 'Ильинична', to_date('1972-01-01' , 'YYYY-MM-DD')    union all 
+select 'Мыдыгмаева', 'Лариса', 'Дондоковна', to_date('1972-10-06' , 'YYYY-MM-DD')    union all 
+select 'Балданова', 'Билигма', 'Бальжинимаевна', to_date('1975-07-31' , 'YYYY-MM-DD')    union all 
+select 'Лыткин', 'Максим', 'Андреевич', to_date('1996-04-17' , 'YYYY-MM-DD')    union all 
+select 'Каракаш', 'Ирина', 'Валерьевна', to_date('1986-11-15' , 'YYYY-MM-DD')    union all 
+select 'Хамнуева', 'Санжима', 'Батуевна', to_date('1980-12-20' , 'YYYY-MM-DD')    union all 
+select 'Таханова', 'Алина', 'Жаргаловна', to_date('2006-05-23' , 'YYYY-MM-DD')    union all 
+select 'Табиханова', 'Светлана', 'Владимировна', to_date('1971-02-03' , 'YYYY-MM-DD')    union all 
+select 'Шойдопова', 'Арюна', 'Доржиевна', to_date('2006-05-13' , 'YYYY-MM-DD')    union all 
+select 'Шойдопова', 'Юмжана', 'Амгалановна', to_date('2007-01-11' , 'YYYY-MM-DD')    union all 
+select 'Горбачевская', 'Дарья', 'Павловна', to_date('1990-02-15' , 'YYYY-MM-DD')    union all 
+select 'Анашкевич', 'Розалия', 'Анатольевна', to_date('2002-01-27' , 'YYYY-MM-DD')    union all 
+select 'Дармаева', 'Ирина', 'Баировна', to_date('1985-09-07' , 'YYYY-MM-DD')    union all 
+select 'Власова', 'Евгения', 'Жаргаловна', to_date('1980-09-11' , 'YYYY-MM-DD')    union all 
+select 'Цибикова', 'Екатерина', 'Самбуевна', to_date('1974-07-16' , 'YYYY-MM-DD')    union all 
+select 'Рябова', 'Мария', 'Дмитриевна', to_date('1986-06-05' , 'YYYY-MM-DD')    union all 
+select 'Никонова', 'Анастасия', 'Викторовна', to_date('1981-06-09' , 'YYYY-MM-DD')    union all 
+select 'Харитонова', 'Надежда', 'Леонидовна', to_date('1978-09-10' , 'YYYY-MM-DD')    union all 
+select 'Алексеева', 'Евгения', 'Александровна', to_date('2022-04-13' , 'YYYY-MM-DD')    union all 
+select 'Санжиева', 'Марина', 'Цыреновна', to_date('1977-03-07' , 'YYYY-MM-DD')    union all 
+select 'Нимаева', 'Оксана', 'Еши-Доржиевна', to_date('1991-08-08' , 'YYYY-MM-DD')    union all 
+select 'Андреева', 'Лидия', 'Прокопьевна', to_date('1984-12-02' , 'YYYY-MM-DD')    union all 
+select 'Вислоцкая', 'Елена', 'Александровна', to_date('1976-03-09' , 'YYYY-MM-DD')    union all 
+select 'Леонтьева', 'Эржена', 'Анатольевна', to_date('1979-10-29' , 'YYYY-MM-DD')    union all 
+select 'Кулакова', 'Яна', 'Владимировна', to_date('2003-03-09' , 'YYYY-MM-DD')    union all 
+select 'Шарапова', 'Светлана', 'Бабасановна', to_date('1982-11-28' , 'YYYY-MM-DD')    union all 
+select 'Козина', 'Галина', 'Григорьевна', to_date('2003-05-06' , 'YYYY-MM-DD')    union all 
+select 'Калачева', 'Анна', 'Алексеевна', to_date('2003-10-28' , 'YYYY-MM-DD')    union all 
+select 'Цыпылова', 'Кристина', 'Алексеевна', to_date('2003-04-13' , 'YYYY-MM-DD')    union all 
+select 'Сафонова', 'Варвара', 'Ильинична', to_date('2004-05-01' , 'YYYY-MM-DD')    union all 
+select 'Дерябина', 'Виктория', 'Евгеньевна', to_date('2002-11-20' , 'YYYY-MM-DD')    union all 
+select 'Толстихина', 'Нина', 'Алексеевна', to_date('2003-09-08' , 'YYYY-MM-DD')    union all 
+select 'Ильина', 'Ольга', 'Николаевна', to_date('2002-04-25' , 'YYYY-MM-DD')    union all 
+select 'Карпукова', 'Галина', 'Борисовна', to_date('1976-08-28' , 'YYYY-MM-DD')    union all 
+select 'Карпукова', 'Софья', 'Петровна', to_date('2006-06-13' , 'YYYY-MM-DD')    union all 
+select 'Антипова', 'Эржена', 'Баировна', to_date('1984-02-20' , 'YYYY-MM-DD')    union all 
+select 'Антипова', 'Тамара', 'Стасовна', to_date('2006-06-13' , 'YYYY-MM-DD')    union all 
+select 'Зюванова', 'Наталия', 'Ивановна', to_date('1983-04-18' , 'YYYY-MM-DD')   ; 
